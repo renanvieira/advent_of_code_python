@@ -24,7 +24,6 @@ def process_strings(args):
         for needle in args:
             if needle == hash:
                 continue
-
             # got all different chars and respective indexes
             diff_chars = get_difference(hash, needle)
             if len(diff_chars) == 1:
