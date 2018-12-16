@@ -19,23 +19,30 @@ def create_claims(args):
     return claims
 
 
-def main(args):
-    claims = create_claims(args)
+def build_claimed_and_overlapping(claims):
     claimed = set()
     overlapping = set()
 
     for claim in claims:
-        cur_claimed = set(
+        current = set(
             (i + claim["x"], claim["y"] + j) for i in range(claim["width"]) for j in range(claim["height"]))
 
-        overlapping |= cur_claimed & claimed
-        claimed |= cur_claimed
+        overlapping |= current & claimed
+        claimed |= current
+
+    return claimed, overlapping
+
+
+def main(args):
+    claims = create_claims(args)
+
+    claimed, overlapping_set = build_claimed_and_overlapping(claims)
 
     for claim in claims:
         cur_claimed = set(
             (i + claim["x"], claim["y"] + j) for i in range(claim["width"]) for j in range(claim["height"]))
 
-        if not cur_claimed & overlapping:
+        if not cur_claimed & overlapping_set:
             print(f"This claim don't overlap anything: {claim.get('id')}")
 
 
