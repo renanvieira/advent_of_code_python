@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daf8aa0d-4acb-4aa1-b794-7d87b8938dcc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/day-3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/day-3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/day-template/inputs/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/day-template/inputs/input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,21 +63,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day-3/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="401">
-                <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+              <first_editor relative-caret-position="311">
+                <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/day-template/inputs/input.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="1372" column="22" selection-start-line="1372" selection-start-column="22" selection-end-line="1372" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -100,6 +104,7 @@
       <find>similar</find>
       <find>cnjxkritdzmbqewfmqagkul</find>
       <find>ID contain</find>
+      <find>1000</find>
     </findStrings>
     <replaceStrings>
       <replace>**</replace>
@@ -129,6 +134,7 @@
         <option value="$PROJECT_DIR$/utils/day-template/part1.py" />
         <option value="$PROJECT_DIR$/utils/day-template/part2.py" />
         <option value="$PROJECT_DIR$/day-3/README.md" />
+        <option value="$PROJECT_DIR$/utils/day-template/inputs/input.txt" />
       </list>
     </option>
   </component>
@@ -171,6 +177,13 @@
               <item name="advent_of_code_python" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
               <item name="day-template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advent_of_code_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advent_of_code_python" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="day-template" type="462c0819:PsiDirectoryNode" />
+              <item name="inputs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,18 +331,18 @@
       <option name="presentableId" value="Default" />
       <updated>1544928634920</updated>
       <workItem from="1544928636237" duration="4321000" />
-      <workItem from="1544964948912" duration="6793000" />
+      <workItem from="1544964948912" duration="6885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11114000" />
+    <option name="totallyTimeSpent" value="11206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -539,9 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/day-template/inputs/input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/day-template/part1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -573,10 +583,17 @@
     <entry file="file://$PROJECT_DIR$/day-3/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="401">
-            <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <first_editor relative-caret-position="311">
+            <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/day-template/inputs/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="1372" column="22" selection-start-line="1372" selection-start-column="22" selection-end-line="1372" selection-end-column="22" />
         </state>
       </provider>
     </entry>
