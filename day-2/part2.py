@@ -15,13 +15,11 @@ def strip_and_compare_strings(hash, needle, diff_chars):
         striped_needle = needle[:diff_tuple[1]] + needle[diff_tuple[1] + 1:]
 
         if striped_hash == striped_needle:
-            print(f"striped char: {striped_needle}")
-            return diff_tuple, True
-    return None, False
+            return striped_hash
+    return None
 
 
 def process_strings(args):
-    diff = list()
     for hash in args:
         for needle in args:
             if needle == hash:
@@ -30,36 +28,14 @@ def process_strings(args):
             # got all different chars and respective indexes
             diff_chars = get_difference(hash, needle)
             if len(diff_chars) == 1:
-                tuple, result = strip_and_compare_strings(hash, needle, diff_chars)
-                if result is True:
-                    diff.append(tuple)
-    print(diff)
-    return diff
-
-
-def summerized_diff(diff_list):
-    letter_count = dict()
-    # search common repetitions
-    for item in diff_list:
-        for key, val in item.items():
-            if key in letter_count:
-                letter_count[key] += 1
-            else:
-                letter_count[key] = 1
-
-    return letter_count
+                result = strip_and_compare_strings(hash, needle, diff_chars)
+                if result is not None:
+                    print(f"Answer: {result}")
+                    break
 
 
 def main(args):
-    diff = process_strings(args)
-
-    # summary = summerized_diff(diff)
-
-    # print(f"Repeting summary: {summary}")
-
-    # most_repeting_letter = max(summary.items(), key=operator.itemgetter(1))
-
-    # print("Most repeting letter: {}, {} times".format(most_repeting_letter[0], most_repeting_letter[1]))
+    process_strings(args)
 
 
 if __name__ == "__main__":
