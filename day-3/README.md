@@ -31,6 +31,7 @@ The problem is that many of the claims *overlap* , causing two or more claims to
 #1 @ 1,3: 4x4
 #2 @ 3,1: 4x4
 #3 @ 5,5: 2x2
+```
 
 Visually, these claim the following areas:
 
