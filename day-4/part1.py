@@ -93,7 +93,8 @@ def main(args):
     print("----------------------------")
 
     guard_asleep_minutes = times_calculated[max_asleep_guard]["sleep_minutes"]
-
+    
+    # TODO: Needs refactoring
     last_val = -1
     max_minute = -1
     for minute, count in guard_asleep_minutes.items():
